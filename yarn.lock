@@ -54,6 +54,14 @@
   dependencies:
     prismjs "^1.30.0"
 
+"@astrojs/rss@^4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@astrojs/rss/-/rss-4.0.12.tgz#ce3505a184232b59b596dbb77e496ca8b1b00fd2"
+  integrity sha512-O5yyxHuDVb6DQ6VLOrbUVFSm+NpObulPxjs6XT9q3tC+RoKbN4HXMZLpv0LvXd1qdAjzVgJ1NFD+zKHJNDXikw==
+  dependencies:
+    fast-xml-parser "^5.2.0"
+    kleur "^4.1.5"
+
 "@astrojs/telemetry@3.3.0":
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/@astrojs/telemetry/-/telemetry-3.3.0.tgz#397dc1f3ab123470571d80c9b4c1335195d30417"
@@ -1233,6 +1241,13 @@ fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
+
+fast-xml-parser@^5.2.0:
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.2.5.tgz#4809fdfb1310494e341098c25cb1341a01a9144a"
+  integrity sha512-pfX9uG9Ki0yekDHx2SiuRIyFdyAr1kMIMitPvb0YBo8SUfKvia7w7FIyd/l6av85pFYRhZscS75MwMnbvY+hcQ==
+  dependencies:
+    strnum "^2.1.0"
 
 fdir@^6.4.4:
   version "6.4.6"
@@ -2517,6 +2532,11 @@ strip-ansi@^7.1.0:
   integrity sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==
   dependencies:
     ansi-regex "^6.0.1"
+
+strnum@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/strnum/-/strnum-2.1.1.tgz#cf2a6e0cf903728b8b2c4b971b7e36b4e82d46ab"
+  integrity sha512-7ZvoFTiCnGxBtDqJ//Cu6fWtZtc7Y3x+QOirG15wztbdngGSkht27o2pyGWrVy0b4WAy3jbKmnoK6g5VlVNUUw==
 
 tailwindcss@4.1.10, tailwindcss@^4.1.10:
   version "4.1.10"
